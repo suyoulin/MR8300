@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder
+name: mr8300 op23.5
 
 on:
   repository_dispatch:
