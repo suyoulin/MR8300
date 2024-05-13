@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: openwrt-23.05
+  REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
@@ -69,6 +69,9 @@ jobs:
 
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
+      rm -rf feeds/packages/lang/golang
+      git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+      ./scripts/feeds install -a 
 
     - name: Load custom configuration
       run: |
