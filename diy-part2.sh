@@ -29,3 +29,6 @@ git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 ./scripts/feeds install -a
 
 rm -rf feeds/packages/net/xray-core
+rm -rf feeds/kid/luci-app-bypass
+rm -rf feeds/kid/luci-app-passwall
+rm -rf feeds/kid/luci-app-ssr-plus
