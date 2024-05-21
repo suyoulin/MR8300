@@ -26,9 +26,10 @@ sed -i 's/disabled=1/disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac802
 
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+git clone https://github.com/suyoulin/helloxray package/helloxray
 ./scripts/feeds install -a
 
 rm -rf feeds/packages/net/xray-core
 rm -rf feeds/kid/luci-app-bypass
-rm -rf feeds/kid/luci-app-passwall
+# rm -rf feeds/kid/luci-app-passwall
 rm -rf feeds/kid/luci-app-ssr-plus
