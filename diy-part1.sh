@@ -16,5 +16,5 @@
 # Add a feed source
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git kiddin https://github.com/kiddin9/openwrt-packages' feeds.conf.default
+sed -i '$a src-git kid https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 
