@@ -24,7 +24,7 @@ sed -i 's/OpenWrt/Linksys/g' package/base-files/files/bin/config_generate
 # sed -i 's/disabled=1/disabled=0/g' package/network/config/wifi-scripts/files/lib/wifi/mac80211.sh
 sed -i 's/disabled=1/disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 # sed -i 's/PKG_VERSION:=1.8.11/PKG_VERSION:=1.8.14/g' feeds/kid/xray-core/Makefile
-sed -i 's/PKG_VERSION:=1.8.11/PKG_VERSION:=1.8.14/g' feeds/kid/sing-box/Makefile
+sed -i 's/PKG_VERSION:=1.8.9/PKG_VERSION:=1.8.14/g' feeds/kid/sing-box/Makefile
 rm -rf feeds/packages/lang/golang
 # rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 # git clone https://github.com/kenzok8/golang feeds/packages/lang/
