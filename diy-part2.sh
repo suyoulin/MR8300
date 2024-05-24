@@ -33,7 +33,7 @@ git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/l
 # git clone https://github.com/suyoulin/helloxray package/helloxray
 ./scripts/feeds install -a
 
-# rm -rf feeds/packages/net/xray-core
+rm -rf feeds/packages/net/xray-core
 # rm -rf feeds/kid/luci-app-bypass
 # rm -rf feeds/kid/luci-app-passwall
 # rm -rf feeds/kid/luci-app-ssr-plus
