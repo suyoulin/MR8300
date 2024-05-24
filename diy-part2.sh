@@ -26,14 +26,14 @@ sed -i 's/disabled=1/disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac802
 # sed -i 's/PKG_VERSION:=1.8.11/PKG_VERSION:=1.8.14/g' feeds/kid/xray-core/Makefile
 # sed -i 's/PKG_VERSION:=1.8.9/PKG_VERSION:=1.8.14/g' feeds/kid/sing-box/Makefile
 rm -rf feeds/packages/lang/golang
-rm -rf feeds/packages/adguardhome
+# rm -rf feeds/packages/adguardhome
 # rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 # git clone https://github.com/kenzok8/golang feeds/packages/lang/
 git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
 # git clone https://github.com/suyoulin/helloxray package/helloxray
 ./scripts/feeds install -a
 
-rm -rf feeds/packages/net/xray-core
+# rm -rf feeds/packages/net/xray-core
 # rm -rf feeds/kid/luci-app-bypass
 # rm -rf feeds/kid/luci-app-passwall
 # rm -rf feeds/kid/luci-app-ssr-plus
